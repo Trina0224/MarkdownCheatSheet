@@ -55,3 +55,75 @@ Or you could just start using numbers with sapce. Ex.
 3. Lower Decks
 
 (Becareful, the numbers is not consitant what you see in the output window, some editor will reorder it for output.)
+
+### Nest Style List
+Put Tab with * + - (don't forget space ' ') 
+* Enterprise
+	* Jonathan Archer
+	* Trup Tucker
+	* T'Pol
+	* Malcolm Reed
+	* Phlox
+	* Hoshi Sato
+	* Travis Mayweather 
+* Discovery
+	* Michael Burnham
+	* Christopher Pike
+	* Saru
+	* Paul Stamets
+	* Hugh Culber
+	* Sylvia Tilly
+	* Ash Tyler / Voq
+	* Gabriel Lorca **Bad guy**
+  
+### Nest style with long distance.
+1. First paragraph
+	Unidentified vessel travelling at sub warp speed, bearing 235.7. Fluctuations in energy readings from it, Captain. All transporters off. A strange set-up, but I'd say the graviton generator is depolarized. The dark colourings of the scrapes are the leavings of natural rubber, a type of non-conductive sole used by researchers experimenting with electricity. The molecules must have been partly de-phased by the anyon beam.
+2. Second paragraph  
+	da;sdlkfja;dkjfa;kdsjfk;aiqhrgposhdf aklsdg;kadfljgsfjgs;
+
+# Horizontal Rules  
+
+
+We could use 3 `_ * or -` to create a bar. Ex.  
+
+---
+
+***
+
+---
+please remember insert one empty upon the bar. or you will create H1 style heading. 
+
+# Links
+My favorite search engine is [Google](https://google.co.jp "JP google")  
+Use [] (... " ")  to style our hyper-link. 
+### Reference style link
+It's also a very popular search engine in [Japan][yahoo]
+
+
+[yahoo]:https://yahoo.co.jp "Yahoo Japan"
+
+
+Please just copy format as above to create your own. 
+
+### Just type in hyperlink
+
+Ex. https://www.google.com  
+or  
+email@gmail.com
+
+ 
+# Images
+There are also sveral way to put image in our article. 
+### Inline image
+This is first method: ![50x50](http://placehold.it/50x50)  
+You just type in `![xxx](http://placehold.it/50x50)` and you could get something like above. 
+
+### Reference style 
+Well, Boom... My love captain is: ![my favorite captain] 
+
+
+
+[my favorite captain]:https://vignette.wikia.nocookie.net/orville/images/2/27/EMercer.jpg "Ed Mercer" 
+
+
