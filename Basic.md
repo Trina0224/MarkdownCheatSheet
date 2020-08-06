@@ -28,12 +28,16 @@ We like to use 5 '#' and '_xxx_' to put under the quote.
 
 # Code Style or Block
 There are two methods too. Method 1) using `` Ex. `printf()`  
-Method 2) Leave 4 spaces ' ' in front of code lines. Ex.  
+Method 2) Leave 3 '`' to break codes or 4 space ' ' in front of each line.  Ex.  
+
     cd ~
     ls
     #ssss
-And go back to normal without spaces.
 
+or
+```
+here is code.
+```
 # List Examples
 You could use * + - these three symbols to lead list. Ex.  
 * Supermicro
@@ -125,5 +129,20 @@ Well, Boom... My love captain is: ![my favorite captain]
 
 
 [my favorite captain]:https://vignette.wikia.nocookie.net/orville/images/2/27/EMercer.jpg "Ed Mercer" 
+
+
+# Inline HTML
+It's also support HTML command like this:
+<dl>
+<dt> The Orville is also great </dt>
+<dd>There are several good reasons.</dd>
+</dl>
+
+Please use `<dl> <dt> <dd>` to achieve this.
+So... We could resize the image like this:
+```
+<img src="https://vignette.wikia.nocookie.net/orville/images/2/27/EMercer.jpg" alt="drawing" width="200"/>
+```
+<img src="https://vignette.wikia.nocookie.net/orville/images/2/27/EMercer.jpg" alt="drawing" width="200"/>
 
 
