@@ -45,5 +45,29 @@ or
 </body>
 ```
 
-I put JavaScript and HTML after \``` 
+I put JavaScript and HTML after \```  
+
+
+# Color texting 
+[Ref][referenceColor]  It's not a default function for Markdown. If you just want to create a color box and mentioned about color:  
+
+- ![#ff0000](https://via.placeholder.com/15/ff0000/000000?text=+) `#ff0000`
+- ![#00ff00](https://via.placeholder.com/15/00ff00/000000?text=+) `#00ff00`
+- ![#0000ff](https://via.placeholder.com/15/0000ff/000000?text=+) `#0000ff`  
+
+or using fenced method.
+```html
+<span style="color: #f38181"> Some text~ </span>
+```
+or the only option is diff. + - ! # @@
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+
+
+[referenceColor]:https://stackoverflow.com/questions/11509830/how-to-add-color-to-githubs-readme-md-file "stackoverflow"
 
